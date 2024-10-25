@@ -3,59 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meet Bella, the Cutest Dog!</title>
+    <title>Bella the Mafia Dog</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        /* General Reset */
+        * {
             margin: 0;
             padding: 0;
-            color: #333;
-            background-color: #f0f8ff;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #111;
+            color: #f2f2f2;
             text-align: center;
+            overflow-x: hidden;
         }
         .container {
+            padding: 50px 20px;
             max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
+            margin: auto;
         }
         .header {
-            padding: 50px 0;
-            background: linear-gradient(135deg, #ffafbd, #ffc3a0);
-            color: white;
+            background: #222;
+            padding: 50px 20px;
+            border-bottom: 2px solid #333;
         }
         h1 {
-            font-size: 3em;
-            margin: 0;
+            font-size: 3.5em;
+            color: #f9bc02;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
         }
         h2 {
             font-size: 1.5em;
-            margin-top: 10px;
-            color: #555;
-        }
-        .bio {
-            margin: 30px 0;
-            font-size: 1.2em;
-            line-height: 1.6;
-            color: #666;
+            color: #bbb;
+            font-weight: normal;
         }
         .dog-photo {
-            border-radius: 15px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             width: 100%;
             max-width: 600px;
-            transition: transform 0.3s;
+            margin-top: 40px;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease;
         }
         .dog-photo:hover {
             transform: scale(1.05);
         }
-        .footer {
-            margin-top: 30px;
+        .bio {
+            background: #222;
+            padding: 30px;
+            border-radius: 10px;
+            margin-top: 40px;
             font-size: 1.2em;
-            color: #333;
+            line-height: 1.6;
+            color: #ccc;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 1.2em;
+            color: #f2f2f2;
         }
         .footer a {
-            color: #ff7f50;
+            color: #f9bc02;
             text-decoration: none;
+            font-weight: bold;
         }
         .footer a:hover {
             text-decoration: underline;
@@ -64,24 +76,22 @@
 </head>
 <body>
 
+    <div class="header">
+        <h1>Bella the Mafia Dog</h1>
+        <h2>The Don of the Dog World</h2>
+    </div>
+
     <div class="container">
-
-        <div class="header">
-            <h1>Meet Bella</h1>
-            <h2>The Fluffiest, Most Adorable Dog Ever</h2>
-        </div>
-
-        <img src="https://placedog.net/600/400" alt="Cute dog Bella" class="dog-photo">
+        <img src="https://placedog.net/600/400" alt="Bella the Mafia Dog" class="dog-photo">
 
         <div class="bio">
-            <p>Hi! My name is Bella, and I'm a 2-year-old golden retriever who loves belly rubs, long naps, and chasing tennis balls. My favorite snack is peanut butter, and I always make my family laugh with my silly antics!</p>
-            <p>I'm loyal, friendly, and always excited to meet new people. Whether it's going for a walk in the park or curling up for a cozy nap, I'm always ready for a good time!</p>
+            <p>Meet Bella, the golden retriever with a heart of gold and a stare that commands respect. She may look sweet, but don’t be fooled—Bella runs the backyard like a true mob boss. She’s all about loyalty, family, and, of course, treats.</p>
+            <p>With her impeccable coat, Bella is the epitome of grace. But make no mistake—if you mess with her family, you'll have a stern bark to answer to!</p>
         </div>
 
         <div class="footer">
-            <p>Follow more of Bella's adventures on Twitter: <a href="https://twitter.com/degenmanny" target="_blank">@degenmanny</a></p>
+            <p>Follow Bella's daily shenanigans on Twitter: <a href="https://twitter.com/degenmanny" target="_blank">@degenmanny</a></p>
         </div>
-
     </div>
 
 </body>
