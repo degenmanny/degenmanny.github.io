@@ -3,36 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dog Coin Gallery</title>
+    <title>Meet Bella, the Cutest Dog!</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; }
-        .header { padding: 20px; background: #f8f9fa; }
-        .gallery { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; padding: 20px; }
-        .gallery img { width: 200px; height: 200px; object-fit: cover; border-radius: 8px; }
-        .description { margin: 20px; padding: 10px; background: #f1f1f1; border-radius: 8px; }
-        .footer { margin-top: 20px; font-size: 18px; }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f0f8ff;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            padding: 50px 0;
+            background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+            color: white;
+        }
+        h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        h2 {
+            font-size: 1.5em;
+            margin-top: 10px;
+            color: #555;
+        }
+        .bio {
+            margin: 30px 0;
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #666;
+        }
+        .dog-photo {
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            max-width: 600px;
+            transition: transform 0.3s;
+        }
+        .dog-photo:hover {
+            transform: scale(1.05);
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 1.2em;
+            color: #333;
+        }
+        .footer a {
+            color: #ff7f50;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
 
-    <div class="header">
-        <h1>Dog Coin Gallery</h1>
-        <p>Exploring the cutest dogs with a touch of crypto.</p>
-    </div>
+    <div class="container">
 
-    <div class="gallery">
-        <img src="https://www.shutterstock.com/image-vector/dog-meme-icon-animal-pixel-600nw-2225706743.jpg" alt="Dog 1">
-        <img src="https://www.shutterstock.com/image-vector/christmas-dog-icon-pixel-art-260nw-2226356259.jpg" alt="Dog 2">
-        <img src="https://www.shutterstock.com/image-vector/sleeping-dog-pixel-art-meme-260nw-2363091613.jpg" alt="Dog 3">
-        <!-- Add more images as needed -->
-    </div>
+        <div class="header">
+            <h1>Meet Bella</h1>
+            <h2>The Fluffiest, Most Adorable Dog Ever</h2>
+        </div>
 
-    <div class="description">
-        <p>Dog Coin is a community-driven project celebrating our love for dogs. It’s as loyal as a pup and just as fun to share!</p>
-    </div>
+        <img src="https://placedog.net/600/400" alt="Cute dog Bella" class="dog-photo">
 
-    <div class="footer">
-        <p>Follow me on Twitter: <a href="https://twitter.com/degenmanny">@degenmanny</a></p>
+        <div class="bio">
+            <p>Hi! My name is Bella, and I'm a 2-year-old golden retriever who loves belly rubs, long naps, and chasing tennis balls. My favorite snack is peanut butter, and I always make my family laugh with my silly antics!</p>
+            <p>I'm loyal, friendly, and always excited to meet new people. Whether it's going for a walk in the park or curling up for a cozy nap, I'm always ready for a good time!</p>
+        </div>
+
+        <div class="footer">
+            <p>Follow more of Bella's adventures on Twitter: <a href="https://twitter.com/degenmanny" target="_blank">@degenmanny</a></p>
+        </div>
+
     </div>
 
 </body>
